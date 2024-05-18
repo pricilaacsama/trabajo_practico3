@@ -3,35 +3,36 @@
 	
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../static/css/estilos.css">
 	<title>TRABAJO PRACTICO 3</title>
 </head>
 
 <body>
-	<header><h1>Programacion Visual</h1></header>
-	<p>Materia de 2do año de la carrera Analista Programador Universitario </p>
+	<header id="title"><h1>Programacion Visual</h1></header>
+	<p class="parrafo-body">Materia de 2do año de la carrera Analista Programador Universitario </p>
 	
-	<nav>
-		<h3>Links:</h3>
+	<nav class="menu">
+		<h3 class="titulo_links">Links:</h3>
 		<ul>
-			<li><a href="https://www.fi.unju.edu.ar">Pagina de FI Unju</a></li>
-			<li><a href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=1#tabs-tree-start">1ra Semana de la materia</a></li>
-			<li><a href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=2#tabs-tree-start">2da Semana de la materia</a></li>
-			<li><a href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=3#tabs-tree-start">3ra Semana de la materia</a></li>
+			<li><a class="links"  href="https://www.fi.unju.edu.ar">Pagina de FI Unju</a></li>
+			<li><a class="links" href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=1#tabs-tree-start">1ra Semana de la materia</a></li>
+			<li><a class="links" href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=2#tabs-tree-start">2da Semana de la materia</a></li>
+			<li><a class="links" href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=3#tabs-tree-start">3ra Semana de la materia</a></li>
 		</ul>
 		</nav>
 		
-		<main>
-		<section>
-			<h2>Profesores de la catedra:</h2>
-			<ul>
+		<main class="contenido-main" >
+		<section class="profesores" >
+			<h2 class="seccion1-h2" >Profesores de la catedra:</h2>
+			<ul class="seccion1-lista" >
 				<li>Ariel Vega</li>
 				<li>Carolina Apaza</li>
 				<li>Juan Carlos Rodriguez</li>
 				<li>Gustavo Sosa</li>
 			</ul>
 			
-			<h3>Horario de clases</h3>
-			<table>
+			<h3 class="seccion1-h3" >Horario de clases</h3>
+			<table class="seccion1-tabla" >
 				<tr>
 					<th>Teoria</th>
 					<th>Practica</th>
@@ -49,8 +50,8 @@
 					<td>Viernes: 18 a 21hs</td>
 				</tr>
 			</table>
-			<h3>Clases de consulta</h3>
-			<table>
+			<h3 class="seccion1-h3" >Clases de consulta</h3>
+			<table class="seccion1-tabla" >
 				<tr>
 					<th>Horario</th>
 					<th>Profesor</th>
@@ -72,23 +73,23 @@
 					<td>Gustavo Sosa</td>
 				</tr>
 			</table>
-			
+			<br>
 		</section>
 			
-		<section>
+		<section class="seccion2" >
 			
-			<h2>Semana 1</h2>
-			<h3>Contenido: </h3>
+			<h2 class="seccion2-h2" >Semana 1</h2>
+			<h3 class="seccion2-h3" >Contenido: </h3>
 			<p>Objetivos  </p>
 			<p>Instalar Java JDK 17 y Spring tool suite, manejo de github para los trabajos practicos de la materia y el manejo del lenguaje de 
 				programacion java.</p>
 		<p>Esta seccion describe lo que fuimos viendo en la primera semana</p>
-		<ul>
+		<ul class="seccion2-lista" >
 			<li>Java JDK 17</li>
 			<li>STS (SPRING TOOL SUITE 4)</li>
 			<li>GitHub</li>
 		</ul>
-		<table>
+		<table class="seccion2-tabla" >
 			<tr>
 				<th>Contenido</th>
 			</tr>
@@ -104,10 +105,10 @@
 		</table>
 		</section>
 		
-		<section>
-			<h2>Semana 2</h2>
-			<h3>Contenido: </h3>
-			<p>Objetivo</p>
+		<section class="seccion3" >
+			<h2 class="seccion3-h2" >Semana 2</h2>
+			<h3 class="seccion3-h3" >Contenido: </h3>
+			<p>Objetivos</p>
 			<p>Profundizar los conceptos del lenguaje de programacion java
 				, introducir el uso del tipo string y fecha, 
 			manejar excepciones y poder hacer conversiones de datos en java </p>
@@ -117,7 +118,7 @@
 				<li>Conversion de tipo de datos</li>
 				<li>Fechas en Java</li>			
 			</ul>
-			<table>
+			<table class="seccion3-tabla" >
 				<tr>
 					<th>Sobrecarga - Excepciones</th>
 					<th>Fechas en Java</th>
@@ -142,10 +143,10 @@
 			
 		</section>
 		
-		<section>
-			<h2>Semana 3</h2>
-			<h3>Contenido: </h3>
-			<p>Objetivo</p>
+		<section class="seccion4" >
+			<h2 class="seccion4-h2" >Semana 3</h2>
+			<h3 class="seccion4-h3" >Contenido: </h3>
+			<p>Objetivos</p>
 			<p>Introducir el uso de los arreglos, conocer el de interfaces, 
 				conocer el uso de las colecciones y comenzar el uso de proyectos Maven</p>
 			<p>Esta seccion describe todo lo que fuimos viendo en la tercera semana</p>
@@ -154,7 +155,7 @@
 				<li>Interfaces</li>
 				<li>Colecciones</li>
 			</ul>
-			<table>
+			<table class="seccion4-tabla" >
 				<tr>
 					<th>Matrices</th>
 					<th>Interfaces</th>
@@ -174,15 +175,16 @@
 		</section>
 		
 		</main>
-		<aside>
-			<h3>Adicionales</h3>
-			<p>Contenido del aside:</p>
-			<a href="https://desarrolladoresweb.org/html/introduccion-a-html/">Introduccion a HTML</a>
-			<p>Imagen:</p>
-			<img alt="imagen" src="../static/images/unju_virtual.jpeg">
+		<aside class="adicionales" >
+			<h3 class="adicionales-h3" >Adicionales</h3>
+			<p class="adicionales-p" >Contenido del aside:</p>
+			<a class="adicional-a" href="https://desarrolladoresweb.org/html/introduccion-a-html/">Introduccion a HTML</a>
+			<p class="adicionales-p" >Imagen:</p>
+			<img class="adicional-img" alt="imagen" src="../static/images/unju_virtual.jpeg">
 		</aside>
-			<footer>Informacion de contacto: <a href="pricilaacsama12@gmail.com">pricilaacsama12@gmail.com</a></footer>
-			<footer>Facebook: <a href="https://www.facebook.com/pricila.acsama">PricilaAcsama</a></footer>
+		
+			<footer id="pie2">Informacion de contacto: <a class="pie2-a" href="pricilaacsama12@gmail.com">pricilaacsama12@gmail.com</a></footer>
+			<footer id="pie2">Facebook: <a class="pie2-a" href="https://www.facebook.com/pricila.acsama">PricilaAcsama</a></footer>
 </body>
 
 

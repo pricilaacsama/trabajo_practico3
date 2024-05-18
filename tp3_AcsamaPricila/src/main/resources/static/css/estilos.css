@@ -1,0 +1,246 @@
+
+
+	#titulo	 {
+	color:white;
+	background-color:navy;
+	text-align: center;
+	background-image: url('../images/escudo.png');
+	background-position: left center;
+	background-size: 15%;
+	background-repeat: no-repeat;
+	padding: 15px;
+	border: 3px solid black;
+	font: oblique;
+}
+
+#pie{
+	font-weight:normal;
+	text-align: center;
+	background-color: navy;
+	color: white;
+	padding: 15px;
+	border: 3px solid black;
+	font-size: medium;
+	font-family: monospace;
+}
+
+.contenido_principal{
+	text-align: center;
+	padding: 15px;
+	border: 3px double ;
+	background-image: url('../images/fondo.jpg');
+	background-size: 80;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.formulario{
+	color: black;
+	font-weight: bold;
+	font-size: large;
+	font-family: monospace;
+}
+
+.escudo{
+	width: 50px;
+	height: 50px;
+}
+
+.face{
+	font-weight:normal;
+	text-align: center;
+	color: white;
+}
+
+.insta{
+	font-weight:normal;
+	text-align: center;
+	color: white;
+}
+
+.correo{
+	font-weight:normal;
+	text-align: center;
+	color: white;
+}
+
+.sub_titulo{
+	font:oblique;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+.boton{
+	background-color: red;
+	color: white;
+	 border: thin;
+	 padding: 10px 20px;
+	 font-size: 16px;
+	 cursor:pointer;
+	 font-family: monospace;
+}
+.parrafos{
+	color: black;
+	font-weight: bold;
+	font-size: large;
+	
+}
+
+#title{
+	font-family: monospace;
+	text-align: center;
+	color: silver;
+	background-color: olive;
+	border: 3px solid black;
+}
+
+.menu{
+	text-align: left;
+	font-family: monospace;
+	
+}
+
+.titulo_links{
+	font-family: monospace;
+	
+}
+
+.links{
+	color:blue;
+	
+}
+
+.parrafo-body{
+	text-align: center;
+	background-color: silver;
+	font-size: large;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+
+.profesores{
+	text-align: center;
+	border: 2px solid black;
+	background-color: teal;
+}
+
+.seccion1-lista{
+	font-family: sans-serif;	
+	text-align: left;
+}
+
+.seccion1-h2{
+	text-decoration: underline;
+	font-family: sans-serif;
+}
+
+.seccion1-h3{
+	text-decoration: underline;	
+	font-family: sans-serif;
+}
+
+.seccion1-tabla{
+	text-align:center;	
+	font-family: sans-serif;
+	border: 2px dotted black;
+}
+
+.seccion2{
+	font-style: oblique;
+	font-family: monospace;
+	background-color: lime;
+	border: 2px solid black;
+}
+
+.seccion2-h2{
+	text-decoration: underline;
+	text-align: center;
+}
+
+.seccion2-h3{
+	text-align: left;
+	text-decoration: underline;
+}
+
+.seccion2-tabla{
+	border: 2px dotted black;
+}
+
+
+.seccion3{
+	background-color: maroon;
+	font: normal;
+	border: 2px solid black;
+}
+
+.seccion3-h2{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.seccion3-h3{
+	text-decoration: underline;
+}
+
+.seccion3-tabla{
+	border: 2px dotted black;
+	
+}
+
+.seccion4{
+	font-family: fantasy;
+	background-color: yellow;
+	border: 2px solid black;
+}
+
+.seccion4-h2{
+	text-decoration: underline;
+	text-align: center;	
+}
+.seccion4-h3{
+	text-decoration: underline;
+}
+
+.seccion4-tabla{
+	border: 2px dotted black;
+	
+}
+.adicionales{
+	text-align: center;	
+	border: 2px solid black;
+	background-color: gray;
+}
+
+.adicionales-h3{
+	text-decoration: underline;
+	font:caption;
+	font-weight: bold;
+}
+
+.adicionales-p{
+	font: caption;
+	text-decoration: underline;
+}
+
+.adicional-img{
+	width: 220px;
+	height: 220px;
+	border: 2px ridge black;
+}
+.adicional-a{
+	color: maroon;
+	font-family: monospace;
+	
+}
+
+#pie2{
+	font-family: sans-serif;
+	background-color: white;
+	
+}
+
+.pie2-a{
+	font-family: sans-serif;
+	color:maroon;
+}
