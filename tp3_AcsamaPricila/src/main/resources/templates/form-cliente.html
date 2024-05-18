@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../static/css/estilos.css" >
+	<title>Trabajo Practico 3</title>
+</head>
+<body>
+	<header id="titulo">
+	<h1>Embajada de Estados Unidos</h1>
+	<h1>Solicitud de Visa</h1>
+	<div class="escudo"></div>
+	</header>
+	
+	<main class="contenido_principal">
+	
+	<h2 class="sub_titulo">Complete el siguiente formulario</h2>
+	
+	<div class="formulario">
+	<form action="" method="post">
+		<label for="dni">Ingrese DNI: </label>
+		<input type="number" id="dni" name="dni" required>
+		<br><br>
+		
+		<label for="nombre">Ingrese nombres: </label>
+		<input type="text" id="nombre" name="nombre" required>
+		<br><br>
+		
+		<label for="apellido">Ingrese apellido: </label>
+		<input type="text" id="apellido" name="apellido" required>
+		<br><br>
+		
+		<label for="fecha">Fecha de nacimiento: </label>
+		<input type="date" id="fecha" name="fecha" required>
+		<br>
+		
+		<p class="parrafos" >Seleccione su genero: </p>
+		<label for="femenino">Femenino</label>
+		<input type="radio" id="femenino" name="genero" value="femenino">
+		
+		<label for="masculino">Masculino</label>
+		<input type="radio" id="masculino" name="genero" value="masculino">
+		
+		<label for="x">X</label>
+		<input type="radio" id="x" name="genero" value="x">
+		<br><br>
+		
+		<label for="mail">Ingrese correo electronico: </label>
+		<input type="email" id="mail" name="mail" required>
+		<br><br>
+		
+		<label for="direccion">Ingrese domicilio: </label>
+		<input type="text" id="direccion" name="direccion" required>
+		<br><br>
+		
+		<label for="provincia">Seleccione su provincia: </label>
+		<select id="provincia" name="provincia" required> 
+			<option value="">Seleccione una opcion</option>
+			<option value="buenos_aires">Buenos Aires</option>
+			<option value="CABA">CABA</option>
+			<option value="catamarca">Catamarca</option>
+			<option value="chaco">Chaco</option>
+			<option value="cordoba">Cordoba</option>
+			<option value="entre_rios">Entre Rios</option>
+			<option value="formosa">Formosa</option>
+			<option value="jujuy">Jujuy</option>
+			<option value="la_pampa">La Pampa</option>
+			<option value="la_rioja">La Rioja</option>
+			<option value="mendoza">Mendoza</option>
+			<option value="misiones">Misiones</option>
+			<option value="neuquen">Neuquen</option>
+			<option value="rio_negro">Rio Negro</option>
+			<option value="salta">Salta</option>
+			<option value="san_juan">San Juan</option>
+			<option value="san_luis">San Luis</option>
+			<option value="santa_cruz">Santa Cruz</option>
+			<option value="santa_fe">Santa Fe</option>
+			<option value="santiago_del_estero">Santiago del Estero</option>
+			<option value="tierra_del_fuego">Tierra del Fuego</option>
+			<option value="tucuman">Tucuman</option>
+		</select>
+		<br><br>
+		
+		<label for="telefono">Numero de telefono celular: </label>
+		<input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="1234567890">
+		<br>
+		
+		<p class="parrafos" >Seleccione razon para la visa: </p>
+		<label for="trabajo">Trabajo</label>
+		<input type="checkbox" id="trabajo" name="razon" value="trabajo"> 
+		
+		<label for="vacaciones">Vacaciones</label>
+		<input type="checkbox" id="vacaciones" name="razon" value="vacaciones">
+		
+		<label for="inmigrar">Inmigrar</label>
+		<input type="checkbox" id="inmigrar" name="razon" value="inmigrar">
+		
+		<label for="estudios">Estudios</label>
+		<input type="checkbox" id="estudios" name="razon" value="estudios">
+		
+		<label for="deporte">Deporte</label>
+		<input type="checkbox" id="deporte" name="razon" value="deporte">
+		
+		<br><br>
+		
+		<p class="parrafos" >Sugerencias para la empresa</p>
+		<textarea id="sugerencias" name="sugerencias" rows="5" cols="40" placeholder="Escribe tus sugerencias aqui..." ></textarea>
+		<br><br>
+		
+		<label for="pass">Ingrese contraseña: </label>
+		<input type="password" id="pass" name="pass" required>
+		<br><br>
+		
+		<label for="terminos" >Acepto los terminos y condiciones</label>
+		<input type="checkbox" id="terminos" name="terminos" required>
+		<br><br>
+		
+		<label for="info" >Acepto recibir informacion relativa a la empresa</label>
+		<input type="checkbox" id="info" name="info">
+		<br><br>
+		
+		
+		<input type="submit" value="Enviar" class="boton" >
+	</form>
+	</div>
+	
+	<br>
+	</main>
+	
+	<footer id="pie">CONTACTANOS: <br> 
+	Redes Sociales: 
+	<a class="face" href="https://www.facebook.com/EmbUSARG/?locale=es_LA">Facebook</a>
+	<a class="insta" href="https://www.instagram.com/embajadaeeuuarg/?hl=es">Instagram</a><br>
+	Correo electronico:
+	<a class="correo" href="BNS-FPU@state.gov">BNS-FPU@state.gov</a>
+	</footer>
+	
+</body>
+</html>
